@@ -1,0 +1,47 @@
+p {
+    color: #0888f8;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 5px;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    background-color: #25394b;
+    color: white;
+}
+
+#tahmid {
+    color: rgb(252, 166, 8);
+    font-family: open sans;
+    font-size: 25px;
+    background-color: black;
+}
+
+.Tahmid {
+    color: rgb(196, 181, 181);
+    background-color: white;
+    font-family: Bookman;
+    font-size: 25px;
+}
+
+h4 {
+    text-align: center;
+    color: red;
+    background-color: black;
+    font-size: 25px;
+}
+
+#tx {
+    color: red;
+    font-size: 5vw;
+}
