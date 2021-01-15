@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    border: 2px solid red;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+input {
+    padding: 2px;
+}
