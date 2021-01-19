@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Location API </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <!-- Not Working try again another way.-->
+    <h1 id="em"> </h1>
+    <br>
+    <br>
+    <button type="button" onClick="myposition()"> Get Location </button>
+    <script>
+        var h = document.getElementsById("em");
+
+        function myposition() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showlocation);
+            }
+        }
+
+        function showlocation(position) {
+            h.innerHTML = "Long :" + myposition.coords.longitude;
+        }
+    </script>
+
+</body>
+
+</html>
